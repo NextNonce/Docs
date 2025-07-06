@@ -1,3 +1,3 @@
 [build]
-command = "mkdir -p docs/developer/backend/reference && curl -o docs/developer/backend/reference/openapi.json https://raw.githubusercontent.com/NextNonce/Backend/main/static/openapi.json && mkdocs build"
+command = "mkdir -p docs/developer/backend/reference && curl -o docs/developer/backend/reference/openapi.json https://raw.githubusercontent.com/NextNonce/Backend/main/static/openapi.json && && python -m mkdocs build"
 publish = "site"
