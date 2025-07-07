@@ -6,16 +6,17 @@ nav:
 
   - Developer:
       - Backend:
+          - Overview: 'developer/backend/index.md'
           - Installation: developer/backend/installation.md
           - Architecture: developer/backend/architecture.md
           - API Reference: developer/backend/reference.md
       - Mobile:
-          #- Reference: developer/mobile/reference/README.md
+          - Overview: 'developer/mobile/index.md'
           - Architecture: developer/mobile/architecture.md
           - Installation: developer/mobile/installation.md
 
   - User:
-      - Get Started: user/get-started.md
+      - Get Started: 'user/index.md'
       - FAQ:         user/faq.md
 
 
