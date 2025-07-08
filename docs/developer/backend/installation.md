@@ -85,7 +85,7 @@ Now, let's clone the code and configure the application.
 
 Open your terminal and clone the repository to your local machine.
 
-```
+```shell
 git clone https://github.com/NextNonce/Backend.git
 cd backend
 ```
@@ -94,7 +94,7 @@ cd backend
 
 Use Yarn to install all the project's dependencies as defined in `yarn.lock`.
 
-```
+```shell
 yarn install --frozen-lockfile
 ```
 
@@ -104,13 +104,13 @@ The application uses a `.env` file to manage all secrets and environment-specifi
 
 1. Create a `.env` file by copying the example file:
     
-    ```
+    ```shell
     cp .env.example .env
     ```
     
 2. Open the newly created `.env` file in a text editor and populate it with the credentials you gathered in **Part 2**.
     
-    ```
+    ```shell
     # Set to "development" for local work
     NODE_ENV=development
     
@@ -179,7 +179,7 @@ This method simulates how the app would run in production. It first builds the J
 
 1. **Build the application:**
     
-    ```
+    ```shell
     yarn build
     ```
     
@@ -187,7 +187,7 @@ This method simulates how the app would run in production. It first builds the J
     
 2. **Run the built application:**
     
-    ```
+    ```shell
     yarn start:prod
     ```
     
@@ -200,7 +200,7 @@ This method uses Docker to create a containerized environment for the applicatio
     
 2. Run the following command from the project root:
     
-    ```
+    ```shell
     docker-compose up --build -d
     ```
     
@@ -226,13 +226,13 @@ Run the included test suites to ensure all modules are functioning as expected.
 
 1. **Run all unit tests:**
     
-    ```
+    ```shell
     yarn test
     ```
     
 2. **Run end-to-end (e2e) tests:** _Note: E2E tests may require a separate test database and a running application instance. Ensure your `.env` is configured correctly for the test environment._
     
-    ```
+    ```shell
     yarn test:e2e
     ```
     
