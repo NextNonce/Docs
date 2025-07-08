@@ -110,43 +110,43 @@ The application uses a `.env` file to manage all secrets and environment-specifi
     
 2. Open the newly created `.env` file in a text editor and populate it with the credentials you gathered in **Part 2**.
     
-    ```shell
-    # Set to "development" for local work
-    NODE_ENV=development
-    
-    # Can be left empty for local development
-    MODE=
-    
-    # Prisma / Supabase
-    DATABASE_URL="postgresql://postgres:[YOUR-PASSWORD]@[YOUR-DB-HOST]:5432/postgres"
-    DIRECT_URL="postgresql://postgres:[YOUR-PASSWORD]@[YOUR-DB-HOST]:5432/postgres"
-    
-    # Supabase Auth
-    SUPABASE_URL=https://[YOUR-PROJECT-ID].supabase.co
-    SUPABASE_KEY=[YOUR-SUPABASE-SERVICE-ROLE-KEY]
-    SUPABASE_ANON_KEY=[YOUR-SUPABASE-ANON-KEY]
-    JWT_SECRET=[YOUR-SUPABASE-JWT-SECRET]
-    
-    # Cache
-    CACHE_PREFIX=nextnonce
-    CACHE_VERSION=v1
-    
-    # Redis
-    REDIS_HOST=localhost # or your remote Redis host
-    REDIS_PORT=6379
-    REDIS_PASSWORD= # your redis password, if any
-    
-    # API Keys
-    ALCHEMY_API_KEY=[YOUR-ALCHEMY-API-KEY]
-    DUNE_API_KEY=[YOUR-DUNE-API-KEY]
-    OKX_DEV_API_KEY=[YOUR-OKX-API-KEY]
-    OKX_DEV_SECRET_KEY=[YOUR-OKX-SECRET-KEY]
-    OKX_DEV_PASSPHRASE=[YOUR-OKX-PASSPHRASE]
-    
-    # New Relic (Optional)
-    NEW_RELIC_APP_NAME=NextNonce-Backend-Dev
-    NEW_RELIC_LICENSE_KEY=
-    ```
+```shell
+# Set to "development" for local work
+NODE_ENV=development
+
+# Can be left empty for local development
+MODE=
+
+# Prisma / Supabase
+DATABASE_URL="postgresql://postgres:[YOUR-PASSWORD]@[YOUR-DB-HOST]:5432/postgres"
+DIRECT_URL="postgresql://postgres:[YOUR-PASSWORD]@[YOUR-DB-HOST]:5432/postgres"
+
+# Supabase Auth
+SUPABASE_URL=https://[YOUR-PROJECT-ID].supabase.co
+SUPABASE_KEY=[YOUR-SUPABASE-SERVICE-ROLE-KEY]
+SUPABASE_ANON_KEY=[YOUR-SUPABASE-ANON-KEY]
+JWT_SECRET=[YOUR-SUPABASE-JWT-SECRET]
+
+# Cache
+CACHE_PREFIX=nn
+CACHE_VERSION=v1
+
+# Redis
+REDIS_HOST=localhost # or your remote Redis host
+REDIS_PORT=6379
+REDIS_PASSWORD= # your redis password, if any
+
+# API Keys
+ALCHEMY_API_KEY=[YOUR-ALCHEMY-API-KEY]
+DUNE_API_KEY=[YOUR-DUNE-API-KEY]
+OKX_DEV_API_KEY=[YOUR-OKX-API-KEY]
+OKX_DEV_SECRET_KEY=[YOUR-OKX-SECRET-KEY]
+OKX_DEV_PASSPHRASE=[YOUR-OKX-PASSPHRASE]
+
+# New Relic (Optional)
+NEW_RELIC_APP_NAME=NextNonce-Backend-Dev
+NEW_RELIC_LICENSE_KEY=
+```
     
 
 ### Step 4: Set Up the Database
