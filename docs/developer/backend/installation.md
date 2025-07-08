@@ -86,7 +86,7 @@ Now, let's clone the code and configure the application.
 Open your terminal and clone the repository to your local machine.
 
 ```
-git clone <your-repository-url>
+git clone https://github.com/NextNonce/Backend.git
 cd backend
 ```
 
@@ -117,33 +117,33 @@ The application uses a `.env` file to manage all secrets and environment-specifi
     # Can be left empty for local development
     MODE=
     
-    # --- Prisma / Supabase ---
+    # Prisma / Supabase
     DATABASE_URL="postgresql://postgres:[YOUR-PASSWORD]@[YOUR-DB-HOST]:5432/postgres"
     DIRECT_URL="postgresql://postgres:[YOUR-PASSWORD]@[YOUR-DB-HOST]:5432/postgres"
     
-    # --- Supabase Auth ---
+    # Supabase Auth
     SUPABASE_URL=https://[YOUR-PROJECT-ID].supabase.co
     SUPABASE_KEY=[YOUR-SUPABASE-SERVICE-ROLE-KEY]
     SUPABASE_ANON_KEY=[YOUR-SUPABASE-ANON-KEY]
     JWT_SECRET=[YOUR-SUPABASE-JWT-SECRET]
     
-    # --- Cache ---
+    # Cache
     CACHE_PREFIX=nextnonce
     CACHE_VERSION=v1
     
-    # --- Redis ---
+    # Redis
     REDIS_HOST=localhost # or your remote Redis host
     REDIS_PORT=6379
     REDIS_PASSWORD= # your redis password, if any
     
-    # --- API Keys ---
+    # API Keys
     ALCHEMY_API_KEY=[YOUR-ALCHEMY-API-KEY]
     DUNE_API_KEY=[YOUR-DUNE-API-KEY]
     OKX_DEV_API_KEY=[YOUR-OKX-API-KEY]
     OKX_DEV_SECRET_KEY=[YOUR-OKX-SECRET-KEY]
     OKX_DEV_PASSPHRASE=[YOUR-OKX-PASSPHRASE]
     
-    # --- New Relic (Optional) ---
+    # New Relic (Optional)
     NEW_RELIC_APP_NAME=NextNonce-Backend-Dev
     NEW_RELIC_LICENSE_KEY=
     ```
