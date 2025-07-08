@@ -6,10 +6,15 @@ nav:
 
   - Developer:
       - Backend:
-          - Overview: 'developer/backend/index.md'
-          - Installation: developer/backend/installation.md
-          - Architecture: developer/backend/architecture.md
-          - API Reference: developer/backend/reference.md
+          - Introduction: 'developer/backend/index.md'
+          - Installation: 'developer/backend/installation.md'
+          - API Reference: 'developer/backend/reference.md'
+          - Architecture:
+              - Overview: 'developer/backend/architecture/overview.md'
+              - Database Schema: 'developer/backend/architecture/database-schema.md'
+              - Providers: 'developer/backend/architecture/providers.md'
+              - Authentication: 'developer/backend/architecture/auth.md'
+              - Request Flow: 'developer/backend/architecture/request-flow.md'
       - Mobile:
           - Overview: 'developer/mobile/index.md'
           - Architecture: developer/mobile/architecture.md
@@ -26,3 +31,8 @@ theme:
 plugins:
   - search
   - swagger-ui-tag
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
