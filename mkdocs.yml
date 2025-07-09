@@ -45,17 +45,8 @@ plugins:
   - search
   - swagger-ui-tag
 
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
-  - admonition
-  - codehilite
   - pymdownx.superfences
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.details
-  - pymdownx.betterem  
-  - pymdownx.smartsymbols
-  - pymdownx.mark
-  - pymdownx.tilde
-  - markdown.extensions.extra
