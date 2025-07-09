@@ -16,10 +16,19 @@ nav:
               - Authentication: 'developer/backend/architecture/auth.md'
               - Request Flow: 'developer/backend/architecture/request-flow.md'
       - Mobile:
-          - Overview: 'developer/mobile/index.md'
-          - Architecture: developer/mobile/architecture.md
+          - Introduction: 'developer/mobile/index.md'
           - Installation: developer/mobile/installation.md
-
+          - Architecture:
+              - Overview: 'developer/mobile/architecture/overview.md'
+              - UI: 'developer/mobile/architecture/ui.md'
+              - Navigation: 'developer/mobile/architecture/navigation.md'
+              - Result and Error: 'developer/mobile/architecture/result-error.md'
+              - DI: 'developer/mobile/architecture/di.md'
+              - Network: 'developer/mobile/architecture/network.md'
+              - Authentication: 'developer/mobile/architecture/auth.md'
+              - Reactive Flows: 'developer/mobile/architecture/flow.md'
+              - Caching Strategy: 'developer/mobile/architecture/caching.md'
+              - Bignum & Formatting: 'developer/mobile/architecture/bignum.md'
   - User:
       - Get Started: 'user/index.md'
       - FAQ:         user/faq.md
@@ -27,6 +36,10 @@ nav:
 
 theme:
   name: material
+  custom_dir: docs/stylesheets
+
+extra_css:
+  - stylesheets/custom.css
 
 plugins:
   - search
@@ -35,4 +48,14 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+  - admonition
+  - codehilite
   - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.details
+  - pymdownx.betterem  
+  - pymdownx.smartsymbols
+  - pymdownx.mark
+  - pymdownx.tilde
+  - markdown.extensions.extra
