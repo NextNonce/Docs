@@ -2,7 +2,7 @@
 
 Welcome to the main user guide! Once you're signed in, you can start adding wallets and tracking your crypto portfolio.
 
-> **A Note on Platforms** The entire experience described in this guide—from adding wallets to viewing your portfolio—is **absolutely the same for both Android and iOS**. The app was built from the ground up to provide an identical, seamless experience on every device.
+> **A Note on Platforms** The entire experience described in this guide — from adding wallets to viewing your portfolio — is **absolutely the same for both Android and iOS**. The app was built from the ground up to provide an identical, seamless experience on every device.
 
 ---
 
