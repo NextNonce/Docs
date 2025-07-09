@@ -42,7 +42,7 @@
 
 /* caption styling */
 .screenshot .caption {
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
+    margin-top: 0.15rem;
+    font-size: 0.56rem;
     color: var(--md-gray-600);
 }
