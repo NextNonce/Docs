@@ -30,13 +30,30 @@ nav:
               - Caching Strategy: 'developer/mobile/architecture/caching.md'
               - Bignum & Formatting: 'developer/mobile/architecture/bignum.md'
   - User:
-      - Get Started: 'user/index.md'
-      - FAQ:         user/faq.md
+      - Welcome: 'user/index.md'
+      - Installation: 'user/installation.md'
+      - Getting Started: 'user/getting-started.md'
+      - Using the App: 'user/using-the-app.md'
 
 
 theme:
   name: material
   custom_dir: docs/stylesheets
+  palette:
+    # Light mode (Light Purple)
+    - scheme: default
+      primary: 'deep purple'
+      accent: 'deep purple' 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Dark mode (Deep Purple)
+    - scheme: slate
+      primary: 'deep purple' 
+      accent: 'deep purple'  
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
 extra_css:
   - stylesheets/custom.css
