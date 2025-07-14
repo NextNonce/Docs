@@ -94,4 +94,4 @@ Providers are the concrete classes that implement the abstract interfaces and co
 
 This diagram illustrates the dependencies between the system's major components, focusing on the flow of logic between services, utilities, and providers. Core infrastructure services like `DatabaseService`,`CacheService` and `AppLoggerService` are used by most services.
 
-![](../../../images/backend_arch.svg)
+![](../../../images/backend_arch.png)
